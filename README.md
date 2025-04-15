@@ -1,4 +1,4 @@
-## Instruction
+## Instructions
 
 1. To use it as template, run - `pnpx create-next-app APP_NAME -e https://github.com/RaihanShezan/n15-template
 `
