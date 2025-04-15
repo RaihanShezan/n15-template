@@ -1,6 +1,8 @@
 ## Instruction
 
-Run `pnpx npm-check-updates -u && pnpm install` to get latest packages.
+1. To use it as template, run - `pnpx create-next-app APP_NAME -e https://github.com/RaihanShezan/n15-template
+`
+1. Run `pnpx npm-check-updates -u && pnpm install` to get latest packages.
 
 ## How its made
 
