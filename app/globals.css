@@ -4,6 +4,22 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+    /* Theme fonts */
+  --font-playfair: var(--font-playfair-display);
+  --font-lato: var(--font-lato);
+  --font-poppins: var(--font-poppins);
+  --font-inter: var(--font-inter);
+  --font-montserrat: var(--font-montserrat);
+  --font-open-sans: var(--font-open-sans);
+  --font-roboto: var(--font-roboto);
+  --font-merriweather: var(--font-merriweather);
+  --font-source-sans-pro: var(--font-source-sans-pro);
+  --font-cormorant-garamond: var(--font-cormorant-garamond);
+  --font-raleway: var(--font-raleway);
+  --font-space-grotesk: var(--font-space-grotesk);
+  --font-bitter: var(--font-bitter);
+  --font-work-sans: var(--font-work-sans);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -139,4 +155,22 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Container styles */
+.container {
+  @apply mx-auto w-full px-6;
+  max-width: 100%;
+}
+@media (min-width: 1680px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+/* Dev helpers */
+.bre {
+  @apply border border-red-500;
+}
+.bbl {
+  @apply border border-blue-500;
 }
