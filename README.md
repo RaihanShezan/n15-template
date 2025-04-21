@@ -33,3 +33,10 @@
    ```
 1. TODO: Typography. How to customize - https://github.com/tailwindlabs/tailwindcss-typography?tab=readme-ov-file#customizing-the-css
 1. TODO: Add https://fluid.tw/ when made compatible with v4
+
+### Branding Setup
+
+1. Generate favicon and icon sizes from https://favicon.io/favicon-converter/
+1. Add them to public folder (e.g. public/branding/... logo 192, 512 & webmanifest)
+1. Update metadata in layout.tsx
+1. Put favicon.ico in app & public folder
