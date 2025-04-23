@@ -162,12 +162,12 @@
 
 /* Container styles */
 .container {
-  @apply mx-auto w-full px-6;
+  @apply mx-auto w-full px-6 md:px-12 lg:px-24;
   max-width: 100%;
 }
-@media (min-width: 1680px) {
+@media (min-width: 1650px) {
   .container {
-    max-width: 1600px;
+    max-width: 1620px;
   }
 }
 /* Dev helpers */
